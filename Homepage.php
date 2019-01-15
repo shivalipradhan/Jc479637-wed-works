@@ -1,3 +1,20 @@
+<?php
+//define constants for connection info
+define("MYSQLUSER","ictatjcub_wedworks");
+define("MYSQLPASS","123zxc");
+define("HOSTNAME","localhost");
+define("MYSQLDB","ictatjcu_wedworks");
+
+//make connection to database
+function db_connect()
+{
+	$conn = @new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
+	if($conn -> connect_error) {
+		die('Connect Error: ' . $conn -> connect_error);
+	}
+	return $conn;
+} 
+?>
 <!doctype html>
 <html>
 <head>
@@ -124,7 +141,6 @@
     
         <h3>Contact</h3>
         <hr/>
-        <?php include 'ab.php';?>
          <ul>
                   
            
