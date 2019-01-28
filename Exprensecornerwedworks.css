@@ -56,14 +56,14 @@ h2{
 	.nav-toggle.active span:before{-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg)}
 	.nav-toggle.active span:after{top:10px;-moz-transform:translatey(-10px) rotate(-45deg);-ms-transform:translatey(-10px) rotate(-45deg);-o-transform:translatey(-10px) rotate(-45deg);-webkit-transform:translatey(-10px) rotate(-45deg);transform:translatey(-10px) rotate(-45deg)}
 	.navicon{position:absolute;height:26px;right:10px;top:48px;visibility:hidden;transition:all 300ms ease-in-out}
-	.hero{min-height:750px;background:url(Img/img26.jpg) center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;position:}
+	.hero{min-height:750px;background:url(imgpublic/img54.jpeg) center center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;position:}
 	.hero .down-arrow a{color:#fff}
 	.hero h1{color:#fff;margin-bottom:40px}
 	.hero p.intro{color:#fff;font-size:20px;font-weight:300;margin-bottom:80px}
 	.hero .hero-content{padding-top:40%}
 	.hero .hero-content img{width:55%;margin-bottom:12%}
 	.navigation{transition:all 300ms ease-in-out;position:fixed;width:100%;z-index:999}
-	.fixed{position:fixed;background-color:black;z-index:999;width:100%}
+	.fixed{position:fixed;background-color:#d3b56a;z-index:999;width:100%}
 	header{padding:50px 0;border-bottom:solid 1px rgba(255,255,255,0.2);position:relative;width:1170px;margin:0 auto;transition:padding 300ms ease-in-out}
 	header a{color:#fff;text-transform:uppercase;font-size:13px}
 	header a.login{margin-right:20px}
